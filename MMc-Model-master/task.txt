@@ -1,0 +1,9 @@
+generate user defined functions for 
+1)Arrival
+2)Service
+3(priority
+ask which distribution is required
+Apply 2 step process: LCG and UV
+Number of Service and Priority will be depent on Number of Arrival: s=p=a
+Stopping Criteria: Arrival = 1 or Equivalent to 1
+Goal: Design valid input of simulator

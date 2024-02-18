@@ -1,0 +1,110 @@
+/* background color = #d6e2e2
+Heading color = #080838
+Text and button color = #4a2cf6
+button text = white */
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: #d6e2e2;
+  color: #080838;
+  /* font-family: 'Young Serif', serif; */
+  /* font-family: 'Cute Font', cursive; */
+  font-size: large;
+
+}
+.cntnr {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.optn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: 4vw;
+  background-color: #080838;
+  color: white;
+}
+.model {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 85vh;
+  padding: 20px;
+ 
+  right: 0%; */
+  /* border: 1px solid rgb(0, 0, 0); */
+  /* margin: 50px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  /* border-radius: 15px; */
+  width: 85vw;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+  /* position: fixed; */
+  overflow-y: auto; 
+}
+/* .tbl{
+  background-color: #000000;
+} */
+table.tbl {
+  border: 1px solid #558585;
+  background-color: #080838;
+  /* background: none; */
+}
+input {
+  width: 10vw;
+  border-radius: 5px;
+  border: 1px solid #080838;
+  color: #000000;
+  text-align: center;
+}
+.btn {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* .gantt-charts {
+  display: flex;
+  flex-direction: column;
+} */
+/* .gantt-chart {
+  position: relative;
+  height: 300px;
+ 
+  margin-top: 20px;
+} */
+
+/* .server {
+  position: absolute;
+  height: 100%;
+} */
+
+.task {
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.server-bar {
+  margin-bottom: 20vh;
+  padding: 20px; /* Adjust the margin as needed */
+}
+label {
+  margin: 2px;
+}
